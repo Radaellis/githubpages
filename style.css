@@ -1,0 +1,82 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: arial, helvetica, sans-serif; 
+     
+      
+    
+}
+
+ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 16px;
+    
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 40px;
+    
+}
+header h1{
+    color: orange;
+    font-weight: 600;
+}
+.center {
+    text-align:center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px;
+    border-color: orange;
+    border-style:solid; 
+
+}
+
+main{
+    padding: 40px;
+}
+main p{
+    text-indent: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer a{
+    padding: 20px;
+    
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+
+}
+
+nav a:hover{
+    color: orange;
+}
+
+
